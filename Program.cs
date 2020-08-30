@@ -18,14 +18,16 @@ namespace Crystal_store
             Console.Write("Введите количество золота: ");
             goldCount = Convert.ToInt32(Console.ReadLine());
             Console.Write("Сколько кристалов вы хотите купить?: ");
-            crystalCount = Convert.ToInt32(Console.Read());
+            crystalCount = Convert.ToInt32(Console.ReadLine());
+            
             
             enoughGold = goldCount >= crystalPrice * crystalCount;
             
-            goldCount *= Convert.ToInt32(enoughGold);
+            crystalCount *= Convert.ToInt32(enoughGold);
             goldCount -= crystalPrice * crystalCount;
+            
             Console.WriteLine("Вы купили " + crystalCount +
-                 " кристаллов, у вас осталось " + (goldCount - crystalPrice * crystalCount) + " золота");
+                 " кристаллов, у вас осталось " + goldCount + " золота");
            
             Console.ReadKey();
         }
