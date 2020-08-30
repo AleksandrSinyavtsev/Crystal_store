@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crystal_store", "Crystal_store.csproj", "{81F36246-84B9-460D-BFFA-75639EE5E0A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81F36246-84B9-460D-BFFA-75639EE5E0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F36246-84B9-460D-BFFA-75639EE5E0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F36246-84B9-460D-BFFA-75639EE5E0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F36246-84B9-460D-BFFA-75639EE5E0A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B386B56-4DDC-4493-BFD5-A1ADC1A8DEE4}
+	EndGlobalSection
+EndGlobal
